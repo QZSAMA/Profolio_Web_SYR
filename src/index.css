@@ -55,9 +55,18 @@
     src: url(assets/font/HafferXHTRIAL-ThinItalic.otf);
 }
 /* Header Style */
-.navlink{    
+.nav-link{    
     font-size: 33px;
-    padding:15px;
+    padding-left: 0px;
+}
+
+.selected{
+    /* width:52px; */
+    /* border-bottom: 2px solid #fff; */
+    background-image: linear-gradient(to right, white,white);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 65% 2px
 }
 
 .nav-header{
