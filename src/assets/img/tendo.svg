@@ -1,0 +1,14 @@
+<svg id="组_110" data-name="组 110" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="244.225" height="157.511" viewBox="0 0 244.225 157.511">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="路径_91" data-name="路径 91" d="M0,28.138H244.225V-129.373H0Z" transform="translate(0 129.373)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="组_109" data-name="组 109" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <text id="tendo" transform="translate(-2.023 55.318)" fill="#e60012" font-size="70" font-family="Pretendo"><tspan x="0" y="0">tendo</tspan></text>
+    <g id="组" transform="translate(0.026 73.235)">
+      <text id="BO" transform="translate(0 79)" fill="#e60012" font-size="99" font-family="Pretendo"><tspan x="0" y="0">BO</tspan></text>
+      <text id="X" transform="translate(153.234 81.435)" fill="#e60012" font-size="101" font-family="Pretendo"><tspan x="0" y="0">X</tspan></text>
+    </g>
+  </g>
+</svg>

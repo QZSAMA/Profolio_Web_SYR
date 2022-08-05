@@ -4,7 +4,7 @@ import {useState} from 'react';
 // import styles from "./index.css"
 // import styles from './assets/styles.scss';
 // import './assets/Header.css';
-import logo from './logo.png';
+import logo from './assets/img/logo.png';
 import Container from 'react-bootstrap/Container';
 // import Button from 'react-bootstrap/Button';
 // import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
