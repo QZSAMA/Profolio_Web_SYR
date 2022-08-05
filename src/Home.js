@@ -3,7 +3,7 @@ import Header from './Header';
 function Home(){
     return(
         <div className="bg-dark text-white">
-            <Header/>
+            <Header val='0'/>
             <h6 className='text-center l'>Choose to browse projects</h6>
             <div className="box">
                 <div className="card">卡片1</div>

@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap';
 function About(){
     return(
         <div className="bg-dark text-white" >
-            <Header></Header>
+            <Header val='1'></Header>
             <Container>
                 <p className='intro'>Yiran is a rising senior design student, a graphic designer and a student leader based in New York. Her working experience is multidisciplinary from graphic design, curation, to marketing, etc. with various exhibitions, organizations, and social experience.</p>
                 <div className='row g-sm-8'>

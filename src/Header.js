@@ -16,12 +16,12 @@ import { render } from '@testing-library/react';
 
 const tabs = [
     {
-      id: 1,
+      id: '0',
       href: '/',
       text:'Work',
     },
     {
-      id: 2,
+      id: '1',
       href: '/about',
       text:'About'
     },
@@ -29,16 +29,20 @@ const tabs = [
 
 
 
-class Header extends React.Component{
+// class Header extends React.Component{
     
-    render(){
-        return(
-            <ToggleButton/>
-        )
+    
+//     render(){
+//         return(
+//             <ToggleButton/>
+//         )
+//     }
+// }
+function Header(props){
+    if (props.val==null){
+        props.val=0;
     }
-}
-function ToggleButton(){
-    const [selected, setSelected] = React.useState(null)
+    // const [selected, setSelected] = React.useState(props.val)
     return (
         <>
         
@@ -49,12 +53,10 @@ function ToggleButton(){
                 </Navbar.Brand>
                 <Navbar.Collapse id="responsive-navbar-nav"  className="nav col-12 col-lg-auto my-2 justify-content-end my-md-0 text-small ">
                     <Nav className="mt-2 mt-md-0 nav-header">
-                    {tabs.map((item , index) => (
-                        <Nav.Link href={item.href} className={"l navlink  text-white "+(selected===index?'selected':null)} onPress={()=>setSelected(index)}>{item.text}</Nav.Link>
+                    {tabs.map((item) => (
+                        <Nav.Link href={item.href} className={"l navlink  text-white "+(props.val===item.id?'selected':null)} >{item.text}</Nav.Link>
                             
                     ))}
-                        {/* <Nav.Link className="l navlink  text-white active" href="/">Work</Nav.Link>
-                        <Nav.Link className="l navlink text-white " href="/about">About</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
